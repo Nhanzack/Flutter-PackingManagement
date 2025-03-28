@@ -1,0 +1,235 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Toàn bộ màn hình */
+body {
+  background: url('./img/10_uu_the_01.jpg') no-repeat center center/cover;
+  display: flex; justify-content: center; align-items: center;
+  height: 100vh; text-align: center;
+}
+
+/* Khung chứa ứng dụng */
+.container {
+  background: url(); padding: 50px;  
+
+  border-radius: 10px; width: 90%; max-width: 350px;
+  color: white; text-align: center;
+  backdrop-filter: blur(10px);
+
+}
+
+/* Phần header với ảnh nền */
+.header {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position:absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.logo {
+  width: 150px;
+  height: 30px;
+}
+
+/* Nội dung chính */
+.content {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #002D62;
+  margin-bottom: 10px;
+}
+
+.car-icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  color: #4A4A4A;
+  margin-bottom: 20px;
+}
+
+/* Các nút bấm */
+.btn {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.btn-login {
+  background-color: #002D62;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #001B40;
+}
+
+.btn-signup{
+  background-color: #E0E0E0;
+  color: #333;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #C0C0C0;
+}
+.back-btn {
+  background: none;
+  border: none;
+  color: rgb(6, 5, 5);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* 
+SECTION LOGIN 
+*/
+
+
+
+.container-login {
+  background: url(); padding: 50px;  
+
+  border-radius: 10px; width: 90%; max-width: 350px;
+  color: white; text-align: center;
+  backdrop-filter: blur(10px);
+
+}
+.container img {
+
+  width: 150px; margin-bottom: 10px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(243, 237, 237);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.input-group input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(5, 4, 4);
+  font-size: 16px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+}
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.signup {
+  margin: 15px 0;
+  font-size: 14px;
+}
+.signup a {
+  color: lightgreen;
+  text-decoration: none;
+}
+.social-buttons button {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-buttons span {
+  margin-right: 10px;
+}
+.hidden {
+  display: none;
+}
+.forgotpassword {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 350px;
+  text-align: center;  
+}
+.recorver {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 350px;
+  text-align: center;  
+}
+.signup p{
+  color: aliceblue;
+}
+.back-btn {
+  background: none;
+  border: none;
+  color: rgb(6, 5, 5);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
