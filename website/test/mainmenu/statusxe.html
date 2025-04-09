@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Quản Lý Gửi Xe</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header-top">
+        <button class="back-btn" onclick="window.location.href='../home.html'">
+            <i class="fa fa-arrow-left"></i>
+        </button>
+        <div class="logo-container">
+            <img src="/website/img/images.png" alt="Logo">
+        </div>
+        <div class="user-info">
+            <h2>Xin chào, Nguyễn Văn A</h2>
+            <p>Mã sinh viên: 12345678</p>
+        </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab active">Trạng thái</button>
+        <button  class="tab">Lịch sử </button>
+        <button class="tab">Cài đặt</button>
+    </div>
+
+    <!-- Header Image -->
+    <div class="header-image">
+        <img src="/website/img/10_uu_the_01.jpg" alt="Bãi đỗ xe">
+        <div class="image-overlay"></div>
+        <div class="image-text">Quản lý gửi xe thông minh - An toàn & Tiện lợi</div>
+    </div>
+
+
+    <!-- Vehicle Info Section -->
+    <div id="vehicleInfoSection">
+        <p><strong>Biển số:</strong> 51A-123.45</p>
+        <p><strong>Thời gian vào:</strong> 08:15 AM - 31/03/2025</p>
+        <p><strong>Trạng thái:</strong> <span class="status-value parked">Đang gửi</span></p>
+        <img src="vehicle.jpg" alt="Xe của bạn">
+        <button class="qr-btn">Gia hạn thời gian</button>
+    </div>
+
+    <!-- Video Section -->
+    <footer>
+        <div class="video-section">
+            <h3>Hướng dẫn sử dụng hệ thống</h3>
+            <video class="intro-video" controls>
+                <source src="intro.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
+            </video>
+        </div>
+    </footer>
+
+</body>
+</html>

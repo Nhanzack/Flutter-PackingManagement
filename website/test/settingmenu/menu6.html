@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết Lập Tài Khoản</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <button class="back-btn" onclick="window.location.href='../home.html'">
+            <i class="fa fa-arrow-left"></i>
+        </button>
+        <h2 style="text-align: center;">Thiết Lập Tài Khoản</h2>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="avatar-section">
+                <img src="../images/default-avatar.png" alt="Avatar" class="avatar-img">
+                <input type="file" id="avatarUpload" accept="image/*">
+            </div>
+
+            <label>Họ và tên:</label>
+            <input type="text" value="Đào Hoàng Nhân" readonly>
+
+            <label>MSSV / Mã quản lý:</label>
+            <input type="text" value="211A290031" readonly>
+
+            <label>Email:</label>
+            <input type="email" value="dao.hoang.nhan@vhu.edu.vn">
+
+            <label>Số điện thoại:</label>
+            <input type="text" value="0123456789">
+            <label>Loại tài khoản:</label>
+
+            <select>
+                <option value="student">Sinh viên</option>
+                <option value="admin">Quản lý</option>
+            </select>
+
+            <div class="toggle-row">
+                <label for="notify-toggle">Thông báo khi xe rời bãi:</label>
+                <label class="switch">
+                    <input type="checkbox" id="notify-toggle" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+         
+
+            <button onclick="alert('Cập nhật thành công!')">Lưu thay đổi</button>
+        </div>
+    </main>
+</body>
+</html>

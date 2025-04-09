@@ -1,0 +1,56 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body {
+    background: url('.//img/10_uu_the_01.jpg') no-repeat center center/cover;
+    display: flex; justify-content: center; align-items: center;
+    height: 100vh; text-align: center;
+}
+ .container {
+    background: url(./img/unsplash_cBsKhfU6UUE\ \(1\).png); padding: 50px;
+    
+    border-radius: 10px; width: 90%; max-width: 350px;
+    color: white; text-align: center;
+}
+.container img {
+    width: 150px; margin-bottom: 10px;
+}
+.container h2 { margin-bottom: 10px; }
+.input-group {
+    display: flex; align-items: center;
+    background: rgba(5, 0, 0, 0.853);
+    padding: 10px; border-radius: 5px; margin: 10px 0;
+}
+.input-group input {
+    border: none; background: transparent; outline: none;
+    width: 100%; padding: 5px; color: white;
+}
+.input-group i { margin-right: 10px; color: white; }
+
+.btn {
+    padding: 10px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 0.3rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn:hover { background: #1565C0; }
+.login-link { margin-top: 10px; color: rgb(0, 0, 0); font-size: 14px; }
+.login-link a { color: #BBDEFB; text-decoration: none; }

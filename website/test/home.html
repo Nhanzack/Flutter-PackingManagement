@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking - Trang Chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="../img/logoxanh.png" alt="Logo Đại học Văn Hiến" class="school-logo">
+            </div>
+            <div class="user-info">
+                <h2>Đào Hoàng Nhân</h2>
+                <p>Bậc thành viên - 211A290031</p>
+            </div>
+            <div class="tabs">
+                <button class="tab active">Trang chủ</button>
+                <button class="tab">Trường VHU</button>
+                <button class="tab">Thoát</button>
+            </div>
+        </div>
+        <div class="header-image">
+            <img src="../img/10_uu_the_01.jpg" alt="Hình ảnh lớp học sinh động">
+            <div class="image-overlay">
+            </div>
+            <p class="image-text">Chào mừng bạn đến với Parking - Hệ thống quản lý bãi đỗ xe thông minh của Đại học Văn Hiến!</p>
+        </div>
+    </header>
+    <main>
+        <div class="menu">
+            <h3>Chức năng chính</h3>
+            <div class="menu-item" id="vehicleStatus">
+                <i class="fas fa-motorcycle"></i>
+                <span>Trạng thái xe</span>
+            </div>
+            <div class="menu-item" id="userInfo">
+                <i class="fas fa-user"></i>
+                <span>Thông tin người dùng </span>
+            </div>
+            <div class="menu-item" id="vehicleHistory">
+                <i class="fas fa-history"></i>
+                <span>Lịch sử xe thường</span>
+            </div>
+        </div>
+        <div class="menu">
+            <h3>App</h3>
+            <div class="menu-item" id="support">
+                <i class="fas fa-headset"></i>
+                <span>Truyền thông hỗ trợ</span>
+            </div>
+            <div class="menu-item" id="accountSettings">
+                <i class="fas fa-cog"></i>
+                <span>Thiết lập tài khoản</span>
+            </div>
+            <div class="menu-item" id="changePassword">
+                <i class="fas fa-lock"></i>
+                <span>Đổi mật khẩu</span>
+            </div>
+            <div class="menu-item logout" id="logout">
+                <i class="fas fa-sign-out-alt"></i>
+                <span>Đăng xuất</span>
+            </div>
+        </div>
+        <button class="qr-btn">Mã QR</button>
+    </main>
+    <footer>
+        <div class="video-section">
+            <h3>Giới thiệu về CNV Parking</h3>
+            <video controls class="intro-video">
+                <source src="./video/cnv-parking-intro.mp4" type="video/mp4">
+                Trình duyệt của bạn không hỗ trợ video.
+            </video>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
